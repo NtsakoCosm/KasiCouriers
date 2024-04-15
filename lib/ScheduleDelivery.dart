@@ -74,7 +74,7 @@ class _FullFrameState extends State<FullFrame> {
   LatLng pickUp = LatLng(0.0, 0.0);
   LatLng destination = LatLng(0.0, 0.0);
 
-  String kGoogleApiKey = "AIzaSyASXMZbZsiABSyI0Dg4wiI9wxIbIr13_hg";
+  String kGoogleApiKey = "";
   var pickupicon = BitmapDescriptor.fromAssetImage(
           ImageConfiguration(
               size: Size(10, 10), platform: TargetPlatform.android),
